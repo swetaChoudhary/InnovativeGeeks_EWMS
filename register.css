@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to top, rgb(245, 231, 108) 0%, rgb(253, 181, 109) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Vibur', cursive;
+    font-family: 'Abel', sans-serif;
+    opacity: .95;
+}
+
+form {
+    width: 800px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 30px 90px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, rgba(246, 234, 123, 0.562) 50%, rgba(255, 189, 123, 0.534) 50%);
+    padding-left: 38px;
+    padding-bottom: 60px;
+}
+
+.header {
+    margin: 2% auto 3% auto;
+    text-align: center;
+}
+.header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+.header p {letter-spacing: 0.05em;}
+.icon{
+    background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+input[class="input-item"]{
+    width: 240px;
+    height: 50px;
+  
+    margin-top: 5%;
+    padding: 15px;
+    
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    
+}
+#submit{
+background-color:#fff;   
+width: 360px;
+height: 50px;
+margin-top: 5%;
+margin-right:1%;
+padding: 15px;
+font-size: 16px;
+font-family: 'Abel', sans-serif;
+color: #5E6472;
+outline: none;
+border: none;
+border-radius: 5px;
+
+}
+input:focus {
+    transform: translateX(-3px);
+    border-radius: 5px;
+}
+
+
+#reset{
+    background-color:#fff;   
+    width: 355px;
+    height: 50px;
+    margin-top: 7%;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+    outline: none;
+    border: none;
+    border-radius:5px;
+    transition: 0.2s linear;   
+}
+#login{
+    background-color:#fff;  
+    padding-top:16px;
+    padding-bottom:14px;
+    padding-left: 350px;
+    padding-right:345px;
+    font-size: 16px;
+    text-decoration:none;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+    border-radius:5px;
+
+}
+
